@@ -78,3 +78,34 @@ body {
     padding: 10px;
     border-radius: 7px;
 }
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pics-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sub-pics {
+    width: 100px;
+    flex: 1;
+}
+
+.sub-pics figcaption {
+    font-size: 10px;
+    text-align: center;
+}
+
+.sub-pics img {
+    border-radius: 10px;
+    border: solid 3px;
+    border-color: rgb(116, 116, 252);
+}
+
+
+
