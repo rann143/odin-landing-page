@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar {
+    background-color: #1F2937;
+    padding-top: 1em;
+    padding-right: 10em;
+    padding-left: 10em;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E7E5EB;
+}
+
+#header-logo {
+    font-size: 2rem;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.second-section {
+    background-color: #1F2937;
+    padding: 5em 10em;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    
+}
+
+.top-text-container {
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.top-text-container button {
+    width: 100px;
+    flex: 0;
+}
+
+.top-text-container h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.top-text-container p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.top-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-image {
+    width: 400px;
+    height: auto;
+}
+
+.top-button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    padding: 10px;
+    border-radius: 7px;
+}

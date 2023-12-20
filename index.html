@@ -8,24 +8,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="top-section">
-        <nav>
-            <li>Header Logo</li>
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
+    <div>
+        <nav class="nav-bar">
+            <a href="#" id="header-logo">Header Logo</a>
+            <a href="#">header link one</a>
+            <a href="#">header link two</a>
+            <a href="#">header link three</a>
         </nav>
-        <h1>This Website is AMAZING</h1>
-        <p>
-            Theis website has some subtext that goes dere under the main title. 
-            It's a smaller font and the color is lower contrast
-        </p>
-        <button type="button">Sign Up</button>
-        <img src="https://images.pexels.com/photos/18794028/pexels-photo-18794028/free-photo-of-woman-standing-on-a-grass-field-and-looking-at-mountains.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
-        alt="photo of golden eagle" width="300px" height="200px">
     </div>
 
     <div class="second-section">
+        <div class="top-text-container">
+            <h1>This Website is AMAZING</h1>
+            <p>
+                Theis website has some subtext that goes here under the main title. 
+                It's a smaller font and the color is lower contrast
+            </p>
+            <button type="button" class="top-button">Sign Up</button>
+        </div>
+        <div class="top-image-container">
+            <img src="https://images.pexels.com/photos/18794028/pexels-photo-18794028/free-photo-of-woman-standing-on-a-grass-field-and-looking-at-mountains.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+            alt="photo of golden eagle" class="top-image">
+        </div>
+    </div>
+
+    <div class="third-section">
         <h2>Some Random Information</h2>
         <figure class="sub-pics">
             <img src="https://images.pexels.com/photos/19438328/pexels-photo-19438328/free-photo-of-jaisalmer-fort.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
@@ -58,21 +65,18 @@
 
     </div>
 
-    <div class="third-section">
+    <div class="fourth-section">
         <blockquote>
             <p>Don't be thick in front of me Al</p>
             <p>- Daniel Plainview</p>
         </blockquote>
     </div>
 
-    <div class="fourth-section">
+    <footer class="footer">
         <h3>Call to Action! It's Time!</h3>
         <p>Sign up for our product be clicking that button right over ther!</p>
         <button type="button">Sign Up</button>
 
-    </div>
-    <footer>
-        <p>Copyright &copy; The Odin Projection 2021</p>
     </footer>
 </body>
 </html>
